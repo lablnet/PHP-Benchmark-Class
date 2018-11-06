@@ -1,8 +1,8 @@
 <?php
 
-require_once 'classes/Benchmark.php';
+require_once '../vendor/autoloader.php';
 
-$bench = new Benchmark();
+$bench = new Lablnet\Benchmark();
 
 $bench->start();
 $x = 1;

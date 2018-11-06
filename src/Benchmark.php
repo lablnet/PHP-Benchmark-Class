@@ -1,5 +1,7 @@
 <?php
 
+namespace Lablnet;
+
 class Benchmark
 {
     public $start;
